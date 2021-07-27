@@ -20,8 +20,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## Screenshots of Quiz App
 
-<img align="left" alt="Index Home Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img4.png "/>
-<img align="left" alt="Quiz Home Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img1.png"/>
-<img align="left" alt="Second Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img2.png"/>
-<img align="left" alt="Third Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img3.png"/>
+<img align="left" alt="Index Home Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img4.png?raw=true "/>
+<img align="left" alt="Quiz Home Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img1.png?raw=true"/>
+<img align="left" alt="Second Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img2.png?raw=true"/>
+<img align="left" alt="Third Page" width="22px" src="https://raw.githubusercontent.com/himanshuchandola/GEHU-QUIZ-PORTAL/main/screenshots/img3.png?raw=true"/>
 

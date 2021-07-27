@@ -1,0 +1,312 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="theme-color" content="#000">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="assets/css/style.css?t=125" type="text/css">
+  <title> Our Team </title>
+  <meta name="title" content="Online Quiz Portal">
+  <meta name="description"
+    content=" Online Quiz Portal" />
+  <base target="_blank">
+  <style>
+    body {
+      background-image: linear-gradient(to left bottom, #0e6eff, #018eda, #00e188, #8fcf06);
+    }
+
+    .carousel-wrapper {
+      border-radius: .3rem;
+      margin-top: 2rem !important;
+    }
+
+    .carousel-wrapper h2 {
+      padding-top: 1rem;
+    }
+
+    .carousel {
+      -webkit-transform-style: preserve-3d;
+      -moz-transform-style: preserve-3d;
+      transform-style: preserve-3d;
+    }
+
+    .slide-item {
+      opacity: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      margin: auto;
+      padding: 1rem 4rem;
+      z-index: -10;
+      transition: transform .5s, opacity .5s, z-index .5s;
+    }
+
+    .slide-item.initial,
+    .slide-item.active {
+      opacity: 1;
+      z-index: 0;
+      position: relative;
+    }
+
+    .slide-item.prev,
+    .slide-item.next {
+      z-index: 800;
+    }
+
+    .slide-item.prev {
+      transform: translateX(-100%);
+    }
+
+    .slide-item.next {
+      transform: translateX(100%);
+    }
+
+    .slide-prev,
+    .slide-next {
+      position: absolute;
+      top: 50%;
+      width: 3rem;
+      height: 3rem;
+      background-color: #FFF;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      cursor: pointer;
+      z-index: 1001;
+      border: 1px solid black;
+    }
+
+    .slide-prev {
+      left: 5px;
+    }
+
+    .slide-next {
+      right: 5px;
+    }
+
+    .slide-prev::after,
+    .slide-next::after {
+      content: " ";
+      position: absolute;
+      width: 10px;
+      height: 10px;
+      top: 50%;
+      left: 54%;
+      border-right: 2px solid black;
+      border-bottom: 2px solid black;
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+
+    .slide-next::after {
+      left: 47%;
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+
+    .card-user {
+      display: block;
+      text-align: center;
+      background: black;
+      height: 100%;
+      margin: 0;
+      padding: .5rem 1rem 0.5rem;
+      border-radius: 0.3rem;
+      box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    }
+
+    .card-user>h4 {
+      height: 56px;
+    }
+
+    @media (max-width: 1229px) {
+      .slide-item {
+        padding: 1rem 4rem !important;
+      }
+    }
+  </style>
+  <noscript>
+    <style>
+      [class*=_aos],
+      ._aos {
+        opacity: 1 !important;
+        transform: translate3d(0px, 0px, 0px) !important;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body id="about">
+  <nav>
+    <div class="logo-container">
+      <a href="./index.html" target="_self"><img alt="techlore-logo" class="logo" src="assets/svg/logo.svg"></a>
+    </div>
+    <input type="checkbox" id="menu-btn" />
+    <label for="menu-btn"><span></span></label>
+    <ul>
+      <li><a target="_self" href="./index.html">Home</a></li>
+      <li><a class="active " target="_self" href="./about.html">Our Team</a></li>
+
+      <li class="social-cnt">
+        <div><a href="https://github.com/himanshuchandola/GEHU-QUIZ-PORTAL" target="_blank"><img alt="github"
+              src="assets/svg/github.svg"></a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+  <svg viewBox="0 0 120 20" class="wavet">
+    <path class="wave"
+      d="M 0 0 v 6 C 30 6 30 10 60 10 C 91 10 90 6 120 6 C 150 6 150 10 180 10 C 210 10 210 6 240 6 v -6 h -240 z" />
+  </svg>
+  <main class="_pt0">
+
+    <h1 class=" _centered">About GEHU Quiz Portal</h1>
+    <div class="_my2 _white _centered">
+      <div class="card _bg-black-t _aos-top">
+        <div class="grid">
+          <div class="_centered"><img src="assets/svg/logo.svg" alt="Techlore" class="_wh-230" /></div>
+          <div class="_g-center">
+
+            A Quiz Portal for GEHU Students.
+            <br><br>
+            We made this Quiz Portal As our 2nd Semester Mini Project. We used HTML , CSS , Javascript, TypeScript, AngularJS
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <h1 class="_centered">Team Members</h1>
+    <div class="card _my2 _bg-black-t _white _aos-left">
+      <div class="row">
+        <div class="col-3 _centered"><img src="assets/svg/himanshu.svg" alt="Himanshu" class="_wh-160 _radius" /></div>
+        <div class="_g-center">
+          <h2>Himanshu Chandola</h2>
+        </div>
+      </div>
+    </div>
+    <div class="card _my2 _bg-black-t _white _aos-left">
+      <div class="row">
+        <div class="col-3 _centered"><img src="assets/svg/garima.svg" alt="Garima" class="_wh-160 _radius" /></div>
+        <div class="_g-center">
+          <h2>Garima Bisht</h2>
+        </div>
+      </div>
+    </div>
+    <div class="card _my2 _bg-black-t _white _aos-left">
+      <div class="row">
+        <div class="col-3 _centered"><img src="assets/svg/nikhil.svg" alt="Nikhil" class="_wh-160 _radius" /></div>
+        <div class="_g-center">
+          <h2>Nikhil Joshi</h2>
+        </div>
+      </div>
+    </div>
+    <div class="card _my2 _bg-black-t _white _aos-left">
+      <div class="row">
+        <div class="col-3 _centered"><img src="assets/svg/bhuwan.svg" alt="Bhuwan" class="_wh-160 _radius" /></div>
+        <div class="_g-center">
+          <h2>Bhuwan Chandra Tiwari</h2>
+        </div>
+      </div>
+    </div>
+<div>
+
+  </main>
+  <svg viewBox="0 0 120 20">
+    <path class="wave"
+      d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z" />
+  </svg>
+
+   <footer>
+&copy; Mini Project by Himanshu , Nikhil , Garima & Bhuwan
+  </footer>
+  <div class="gt-link hide" id="gt-link">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6">
+      <path d="M12 6H0l6-6z" /></svg>
+    </a>
+
+
+
+</body>
+<script src="assets/javascript/script.js" type="text/javascript"></script>
+<script src="assets/javascript/slider.js" type="text/javascript"></script>
+<script>
+  function CSVToJSON(csvData) {
+    var data = CSVToArray(csvData);
+    var objData = [];
+    for (var i = 1; i < data.length; i++) {
+      objData[i - 1] = {};
+      for (var k = 0; k < data[0].length && k < data[i].length; k++) {
+        var key = data[0][k];
+        objData[i - 1][key] = data[i][k]
+      }
+    }
+    var jsonData = JSON.stringify(objData);
+    jsonData = jsonData.replace(/},/g, "},\r\n");
+    return jsonData;
+  }
+
+  function CSVToArray(csvData, delimiter) {
+    delimiter = (delimiter || ",");
+    var pattern = new RegExp((
+      "(\\" + delimiter + "|\\r?\\n|\\r|^)" +
+      "(?:\"([^\"]*(?:\"\"[^\"]*)*)\"|" +
+      "([^\"\\" + delimiter + "\\r\\n]*))"), "gi");
+    var data = [
+      []
+    ];
+    var matches = null;
+    while (matches = pattern.exec(csvData)) {
+      var matchedDelimiter = matches[1];
+      if (matchedDelimiter.length && (matchedDelimiter != delimiter)) {
+        data.push([]);
+      }
+      if (matches[2]) {
+        var matchedDelimiter = matches[2].replace(
+          new RegExp("\"\"", "g"), "\"");
+      } else {
+        var matchedDelimiter = matches[3];
+      }
+      data[data.length - 1].push(matchedDelimiter);
+    }
+    return (data);
+  }
+  //Get CSV data
+  var jsonData;
+  fetch(
+      "https://raw.githubusercontent.com/techlore/channel-content/master/Assets/thanks.csv"
+    )
+    .then(response => response.text())
+    .then(text => {
+      //Use CSV text and convert to json
+      jsonData = JSON.parse(CSVToJSON(text));
+      jsonData.pop();
+      var cntslider = document.getElementById("slider");
+
+      var finalstr = '';
+      var i, j, temparray, chunk = 4;
+      for (i = 0, j = jsonData.length; i < j; i += chunk) {
+        temparray = jsonData.slice(i, i + chunk);
+        finalstr += '<div class="slide-item"><div class="row">';
+        temparray.forEach((element) => {
+          let link = "";
+          if (element["Link"] != "X") link = "<a href='" + element["Link"] + "'>";
+          finalstr += "<div>" + ((link != '') ? link : '') + "<div class='card-user _black-t'><h4>" + element[
+              "Name"] + "</h4><hr>" +
+            element["Bio"] + "</div>" + ((link != '') ? '</a>' : '') + "</div>";
+        });
+        finalstr += "</div></div>";
+      }
+      finalstr += '<div class="slide-next"></div><div class="slide-prev"></div>';
+      cntslider.innerHTML = finalstr;
+      new Slider({
+        id: "slider"
+      });
+    });
+  $(document).ready(function () {
+
+    $().aos();
+  });
+</script>
+
+</html>

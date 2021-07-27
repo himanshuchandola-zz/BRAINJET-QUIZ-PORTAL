@@ -1,4 +1,6 @@
-# GEHU QUIZ APP PORTAL MINI PROJECT
+# GEHU QUIZ APP PORTAL MINI PROJECT 
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b3d8258c-8743-4322-b4cc-200093f991e6/deploy-status)](https://app.netlify.com/sites/gehu-haldwani-quiz-portal-mini-project/deploys)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.5.
 

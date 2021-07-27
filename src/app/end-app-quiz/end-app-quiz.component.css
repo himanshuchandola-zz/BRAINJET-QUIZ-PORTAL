@@ -1,0 +1,56 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.margin-10 {
+  margin: 10px;
+}
+
+.congratsText {
+  font-size: 3em;
+  text-align: center;
+}
+
+.scoreText {
+  font-size: 1.6em;
+  text-align: center;
+}
+
+span {
+  color: #3f51b5;
+
+}
+
+#playAgainBtn {
+  width: 150px;
+  height: 50px;
+}
+
+#homeBtn {
+  width: 150px;
+  height: 50px;
+}
+
+.btnHoverEffect:hover {
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.5rem 0 rgba(11, 26, 34, 0.5);
+  transform: translateY(-1px);
+  transition: transform 150ms;
+}

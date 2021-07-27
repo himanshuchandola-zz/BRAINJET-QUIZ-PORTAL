@@ -1,0 +1,49 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 1.4rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.select-field {
+  width: 100%;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow: hidden;
+}
+
+.btnHoverEffect:hover {
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.5rem 0 rgba(11, 26, 34, 0.5);
+  transform: translateY(-1px);
+  transition: transform 150ms;
+}
+
+.pad {
+  padding-left: 6px;
+}
+
+.title {
+  padding-left: 6px;
+  letter-spacing: 0.9px;
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 20px;
+}

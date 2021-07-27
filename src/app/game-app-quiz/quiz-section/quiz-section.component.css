@@ -1,0 +1,111 @@
+.justify-center {
+  justify-content: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.spinnerDiv {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#game {
+  padding-bottom: 20px;
+}
+
+#hud {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+  padding: 0 5px;
+}
+
+#hud-item {
+  padding: 10px 0;
+}
+
+/* PROGRESS BAR */
+.progressBar {
+  width: 14.5em;
+  height: 1.2em;
+  max-width: 50rem;
+  border-radius: 5px;
+}
+
+.progressText {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* SCORE */
+.scoreProgress {
+  font-size: 5rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 14px;
+  margin-bottom: 0px;
+  color: #56a5eb;
+}
+
+.scoreText {
+  margin-bottom: 10px;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+#question {
+  letter-spacing: 0.9px;
+  line-height: 2rem;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* CHOICE */
+.choice-container {
+  display: flex;
+  margin-bottom: 0.8rem;
+  width: 100%;
+  border: 0.1rem solid rgb(86, 165, 235, 0.25);
+  border-radius: 3px;
+  font-size: 1.4rem;
+}
+
+.choice-container:hover {
+  cursor: pointer;
+  box-shadow: 0 0.1rem 0.5rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-1px);
+  transition: transform 150ms;
+}
+
+.choice-prefix {
+  margin-bottom: 0;
+  padding: 10px 20px;
+  border-radius: 3px 0 0 3px;
+  background-color: #3f51b5;
+  text-align: center;
+  color: white;
+}
+
+.choice-text {
+  margin-bottom: 0;
+  padding: 1rem;
+  width: 100%;
+}
+
+.correct {
+  background-color: #28a745;
+  border-radius: 0 3px 3px 0;
+}
+
+.incorrect {
+  background-color: #dc3545;
+  border-radius: 0 3px 3px 0;
+}

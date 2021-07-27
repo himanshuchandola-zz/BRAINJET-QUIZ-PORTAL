@@ -1,0 +1,43 @@
+<div id="game" class="justify-center flex-column">
+  <!-- HUD -->
+  <div id="hud">
+    <div id="hud-item" class="justify-center">
+      <p class="progressText">Question {{questionCounter}} of {{MAX_QUESTIONS}} </p>
+      <div class="col-progressBar">
+        <mat-progress-bar class="progressBar" color="primary" mode="determinate" [value]="progressBar">
+        </mat-progress-bar>
+      </div>
+    </div>
+    <div id="hud-item" class="justify-center">
+      <p class="scoreText">Score</p>
+      <h2 class="scoreProgress">{{ score }}</h2>
+    </div>
+  </div>
+  <!-- QUESTION -->
+  <mat-card>
+    <ng-container *ngIf="isLoading else game">
+      <div class="spinnerDiv">
+        <mat-spinner></mat-spinner>
+      </div>
+    </ng-container>
+    <ng-template #game>
+      <h3 id="question">{{ questionText | decodeHtml }}</h3>
+      <div class="choice-container" (click)="chooseAnswer(1)">
+        <p class="choice-prefix">A</p>
+        <p class="choice-text">{{ currentQuestion.choice1 | decodeHtml }}</p>
+      </div>
+      <div class="choice-container" (click)="chooseAnswer(2)">
+        <p class="choice-prefix">B</p>
+        <p class="choice-text">{{ currentQuestion.choice2 | decodeHtml }}</p>
+      </div>
+      <div class="choice-container" (click)="chooseAnswer(3)">
+        <p class="choice-prefix">C</p>
+        <p class="choice-text">{{ currentQuestion.choice3 | decodeHtml }}</p>
+      </div>
+      <div class="choice-container" (click)="chooseAnswer(4)">
+        <p class="choice-prefix">D</p>
+        <p class="choice-text">{{ currentQuestion.choice4 | decodeHtml }}</p>
+      </div>
+    </ng-template>
+  </mat-card>
+</div>

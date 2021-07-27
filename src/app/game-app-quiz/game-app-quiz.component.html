@@ -1,0 +1,53 @@
+<div class="container justify-center">
+  <div *ngIf="!isOptionSelected; else game">
+    <mat-card  >
+      <h3 class="title">Welcome to GEHU Haldwani Quiz Portal <br><br><br><br> Developed by Team of Himanshu, Garima, Nikhil, Bhuwan <br><br><br><br>Please choose a category and difficulty before playing</h3>
+      <div class="flex justify-center">
+        <mat-form-field appearance="fill" class="select-field">
+          <mat-label>Choose Category</mat-label>
+          <mat-select [formControl]="categories"
+          (selectionChange)="selectCategory()">
+            <mat-option>None</mat-option>
+            <mat-option *ngFor="let category of categoriesData" [value]="category.id">
+              {{ category.name }}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="categories.hasError('required')">You must make a selection</mat-error>
+        </mat-form-field>
+        <mat-form-field appearance="fill" class="select-field">
+          <mat-label>Choose Difficulty</mat-label>
+          <mat-select [formControl]="difficulty"
+          (selectionChange)="selectDifficulty()">
+            <mat-option>None</mat-option>
+            <mat-option *ngFor="let dif of difficultyData" [value]="dif.type">
+              {{ dif.name }}
+            </mat-option>
+          </mat-select>
+          <mat-error *ngIf="difficulty.hasError('required')">You must make a selection</mat-error>
+        </mat-form-field>
+      </div>
+      <div class="pad">
+        <button
+          mat-raised-button
+          class="btnHoverEffect"
+          color="primary"
+          (click)="playGame()"
+          [disabled]="!(categories.valid && difficulty.valid)"
+        >
+          Let's Go!
+        </button>
+      </div>
+    </mat-card>
+  </div><br><br>
+<footer>
+&copy; 2nd Semester Mini Project by Himanshu Chandola , Nikhil Joshi , Garima Bisht & Bhuwan Chandra Tiwari
+  </footer>
+  <ng-template #game>
+    <div style="height: 100%;">
+      <app-quiz-section
+      [selectedCategory]="selectedCategory"
+      [selectedDifficulty]="selectedDifficulty"
+      ></app-quiz-section>
+    </div>
+  </ng-template>
+</div>

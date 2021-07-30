@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
-Questions for Our Quiz App is getting fetched from [OpenTrivia DB](https://opentdb.com/) via [API](https://opentdb.com/api.php?amount=10&type=multiple)
+Questions for Our Quiz App is getting fetched from [OpenTrivia DB](https://opentdb.com/) via [Trivia API](https://opentdb.com/api_config.php)
 
 [Questions API](https://opentdb.com/api.php?amount=10&type=multiple) and [Category API](https://opentdb.com/api_category.php)
 

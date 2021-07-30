@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./home-app-quiz.component.css'],
 })
 export class HomeAppQuizComponent implements OnInit {
-  title = 'GEHU Haldwani Quiz Portal';
+  title = 'Brainjet Quiz Portal';
 
   constructor() {}
 

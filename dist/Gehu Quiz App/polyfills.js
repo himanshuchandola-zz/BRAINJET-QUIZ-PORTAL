@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Himanshu\Downloads\WebAppQuiz-master\src\polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! F:\Web Projects\Main Quiz Website\src\polyfills.ts */"hN/g");
 
 
 /***/ }),

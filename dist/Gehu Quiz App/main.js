@@ -18,7 +18,7 @@ __webpack_require__.r(__webpack_exports__);
 
 class HomeAppQuizComponent {
     constructor() {
-        this.title = 'GEHU Haldwani Quiz Portal';
+        this.title = 'Brainjet Quiz Portal';
     }
     ngOnInit() { }
 }
@@ -58,7 +58,7 @@ HomeAppQuizComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdef
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Himanshu\Downloads\WebAppQuiz-master\src\main.ts */"zUnb");
+module.exports = __webpack_require__(/*! F:\Web Projects\Main Quiz Website\src\main.ts */"zUnb");
 
 
 /***/ }),
@@ -476,7 +476,7 @@ function GameAppQuizComponent_div_1_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "div");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](1, "mat-card");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h3", 3);
-    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Welcome to GEHU Haldwani Quiz Portal ");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](3, "Welcome to Brainjet Quiz Portal ");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](4, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](5, "br");
     _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](6, "br");

@@ -1,5 +1,7 @@
 # BRAINJET QUIZ APP WEB PORTAL 
 
+Live Demo : https://himanshuchandola.github.io/quiz/ 
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
 
 Questions for Our Quiz App is getting fetched from [OpenTrivia DB](https://opentdb.com/) via [Trivia API](https://opentdb.com/api_config.php)

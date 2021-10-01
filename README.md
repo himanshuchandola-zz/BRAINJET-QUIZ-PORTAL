@@ -9,6 +9,8 @@ Questions for Our Quiz App is getting fetched from [OpenTrivia DB](https://opent
 [Questions API](https://opentdb.com/api.php?amount=10&type=multiple) and [Category API](https://opentdb.com/api_category.php)
 
 
+
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to http://localhost:4200/ 
